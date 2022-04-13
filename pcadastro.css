@@ -1,0 +1,21 @@
+/* Conteúdo da página de cadastro */
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.titulocadastro{
+    
+    text-align: center;
+}
+
+#tabela {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
