@@ -43,6 +43,22 @@ body{
     border-bottom: 2px solid #968372;
 }
 
+.busca{
+    background: url(./img/lupa1.png) no-repeat center right;
+    padding: 1px;
+    border: none;
+    width: 20vw;
+    transition: all 0.5s linear;
+    height: 2em;
+}
+
+.busca:focus{
+    width: 20vw;
+    border-bottom: 2px solid gray;
+    outline: none;
+    background-color: white;
+    height: 2em;
+}
 
 .pesquisa{
     display: flex;
@@ -56,6 +72,7 @@ footer{
     padding: 40px;
     background-color: #102947;
     color: white;
+    flex-flow: wrap;
 
 }
 
