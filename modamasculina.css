@@ -1,0 +1,62 @@
+.conteudo{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin: 55px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.imgtenis {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgtenis .seg {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:45px;
+    left:0;
+    height: 80%;
+}
+.imgtenis:hover .seg {
+    visibility: visible;
+    opacity: 1;
+    height: 80%;
+
+}
+
+.pri{
+    height: 80%;
+}
+
+.imgtenis:hover .pri{
+    opacity: 0;
+}
+
+.seg{
+    height: 80%;
+}
+
+#tenis2{
+    left: 45px;
+}
+
+.titulotenis{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
