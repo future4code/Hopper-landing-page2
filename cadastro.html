@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="pcadastro.css">
-    <link rel="stylesheet" type="text/css" href="estilopadrao.css">
+    <link rel="stylesheet" href="estilopadrao.css">
+    <link rel="stylesheet" href="pcadastro.css">
     <title>Página de Cadastro</title>
 </head>
 <body>
-    <header>
-        <div id="cabecalho">
-            <nav class="">
-                <ul class="menu">    
-                    <li class="bmenu"><a href="./pageman.html">Men</a></li>
-                    <li class="bmenu"><a href="./pagewoman.html">Woman</a></li>
-                    <li class="bmenu"><a href="./contato.html">Cadastro</a></li>
-                </ul>             
-            </nav>
-            <a href="index.html"><img src="./img/logo-4comfort-azul.png" alt="Logo Marga" class="logo"></a>
-            <div class="pesquisa">                
-                <input type="search" name="busca" class="busca">
-            </div>
+
+    <header class="cabecalho">
+        <div>
+            <ul class="menu">
+                <a href="modaMasculina.html" class="animacaoMenu"><li>Masculino</li></a>
+                <a href="modaFeminina.html" class="animacaoMenu"><li>Feminino</li></a>
+                <a href="cadastro.html" class="animacaoMenu"><li>Cadastro</li></a>
+            </ul>
+        </div>
+        <a href="index.html"><img src="img/logo-4comfort-branco.png" alt="" class="logo"></a>
+        <div class="search-box">
+            <input type="text" class="search-txt" placeholder="Pesquisar">
         </div>
     </header>
     
@@ -66,15 +65,15 @@
             <h3 class="titulorodape">
                 Mapa do Site
             </h1>
-            <p class="descrirodape">
-                Men
-            </p>
-            <p class="descrirodape">
-                Woman
-            </p>
-            <p class="descrirodape">
+            <a href="" class="menurodape">
+                Masculino
+            </a>
+            <a href="" class="menurodape">
+                Feminino
+            </a>
+            <a href="" class="menurodape">
                 Cadastro
-            </p>
+            </a>
         </div>
 
         <div class="maparodape contatorodape">
@@ -93,14 +92,13 @@
                 Redes Sociais
             </h1>
             <div class="iconesredes">
-                <img src="./img/face.png" class="redesrodape">
-                <img src="./img/linkedin.png" class="redesrodape">
-                <img src="./img/insta.png" class="redesrodape">
-                <img src="./img/whats.png" class="redesrodape">
+                <a href=""><img src="img/facebook.png" class="redesrodape"></a>
+                <a href=""><img src="img/twitter.png" class="redesrodape"></a>
+                <a href=""><img src="img/instagram.png" class="redesrodape"></a>
+                <a href=""><img src="img/whatsapp.png" class="redesrodape"></a>
             </div>
-
-
         </div>
     </footer>
+
 </body>
 </html>

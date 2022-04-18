@@ -1,11 +1,11 @@
-/* Conteúdo da página de cadastro */
+/*----------------------------------------CADASTRO----------------------------------------*/
 
 .cadastro{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 25px 0;
+    margin: 100px 0;
 }
 
 .titulocadastro{
@@ -50,4 +50,55 @@ button{
     text-decoration: none;
     font-size: 1em;
     border-radius: 3px;
+}
+
+/*----------------------------------------RESPONSIVIDADE----------------------------------------*/
+
+
+@media (max-width: 800px) and (min-width: 300px){ 
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .cabecalho img{
+        height: 20%;
+        margin: 5px 0
+    }
+    .menu{
+        font-size: 10px;
+        margin-right: 40px;
+    }
+    .search-box {
+        display: none;
+    }
+
+    .cadastro {  
+        margin: 50px 150px;
+    }
+
+    .espacoinput {
+        width: 30vh;
+
+    }
+
+    .margincad {
+        width: 40vh;
+    }
+
+
+
+    footer {
+        font-size: 15px;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .iconesredes {
+        margin-bottom: 30px;
+    }
+
 }
