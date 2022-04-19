@@ -3,7 +3,14 @@
     position: absolute;
     top: 0;
     background: transparent;
-    width: 100vw;
+    width: 95vw;
+}
+
+.logo {
+}
+
+#menuT {
+    text-indent: 5px;
 }
 
 #menuT li{
@@ -54,6 +61,7 @@
     text-align: justify;
     margin: 10px 0;
     background-color: #ebebeb;
+
 }
 
 .imgamostra{
@@ -62,11 +70,14 @@
 }
 
 .textoEspaco {
-    height: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 0 20px;
+}
+
+.espacoTexto{
+    margin: 70px 0;
 }
 
 .buttomSite {
@@ -105,3 +116,106 @@
 
 /*----------------------------------------RESPONSIVIDADE----------------------------------------*/
 
+@media (max-width: 1400px) and (min-width: 800px){
+    #cabecalhoT{
+        position: static;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        background-color: #102947;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    #menuT li{
+        color:white;
+    }
+
+    .logo {
+        opacity: 0.0;
+    }
+
+    .imgLogo{
+        background-image: url(img/logo-4comfort-branco.png);
+        background-repeat: no-repeat;
+        background-size: 120px;
+        background-position: center center;
+    }
+
+    .cabecalho>a {
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .espacoTexto{
+        margin: 20px 0;
+    }
+    
+}
+
+@media (max-width: 800px) and (min-width: 300px){
+    #cabecalhoT{
+        position: static;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        background-color: #102947;
+        width: 100%;
+        padding: 10px 0;
+    }
+        
+    #menuT li{
+        color:white;
+    }
+
+
+
+    .logo {
+        opacity: 0.0;
+    }
+
+    .imgLogo{
+        background-image: url(img/logo-4comfort-branco.png);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: center center;
+    }
+    
+    .search-box {
+        display: none;
+    }
+    .sessaoSite{
+        flex-direction: column;        
+        justify-content: center;
+    }
+
+    .imgamostra{
+        height: 80vw;
+    }
+
+    #sessaoMasculina {
+        flex-direction: column-reverse;
+    }
+
+    .espacoTexto{
+        margin: 5px 0;
+    }
+    
+    .buttomSite {
+        width: 30vw;
+    }
+
+    .top {
+        width: 30vw;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
