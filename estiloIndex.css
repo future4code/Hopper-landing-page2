@@ -1,0 +1,107 @@
+/*----------------------------------------CABECALHO----------------------------------------*/
+#cabecalhoT{
+    position: absolute;
+    top: 0;
+    background: transparent;
+    width: 100vw;
+}
+
+#menuT li{
+   color: black; 
+   font-style: oblique;
+}
+#menuT .animacaoMenu:hover{
+     color: black;
+     text-decoration:underline;
+}
+
+#searchT {
+    background-color: transparent;
+    color: black;
+}
+
+/*----------------------------------------MAIN----------------------------------------*/
+.topSite{
+    background-size: 100vw;
+    background-image: url(./img/topSite.jpg);
+    background-repeat: no-repeat;
+    height: 35vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-bottom: 20px;
+    background-position: bottom;
+
+}
+
+.topTexto {
+    color: rgb(255, 255, 255);
+}
+
+.sessaoMF{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    margin: 0 5% ;
+}
+
+.sessaoSite {
+    display:flex;
+    align-items: center;
+    justify-content: baseline;
+    text-align: justify;
+    margin: 10px 0;
+    background-color: #ebebeb;
+}
+
+.imgamostra{
+    height: 30vw;
+    padding: 4px 0;
+}
+
+.textoEspaco {
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.buttomSite {
+    height: 5vh;
+    width: 15vw;
+    background-color: white;
+    
+    box-shadow: 0px 0px 4px rgb(29, 28, 28);
+}
+
+.buttomSite:hover {
+    background-color: #5d5a5a;
+/*   border-color: #ebebeb;*/
+    color: white; 
+}
+
+#topBotoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top {
+    height: 5vh;
+    width: 15vw;
+    background-color: white;
+    
+    box-shadow: 0px 0px 4px rgb(29, 28, 28);
+}
+
+.top:hover{
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+
+
+/*----------------------------------------RESPONSIVIDADE----------------------------------------*/
+
