@@ -1,0 +1,194 @@
+/*----------------------------------------TENIS----------------------------------------*/
+
+.catalogoTenis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tenis {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.imgtenis img.img-hover {
+    display: none;
+  }
+  .imgtenis:hover img.img-default {
+    display: none;
+  }
+  .imgtenis:hover img.img-hover {
+    display: inherit;
+  }
+
+
+.descricaoTenis {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.descricaoTenis:hover {
+    text-decoration:underline
+}
+
+.precoTenis {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #b2b2b2;
+}
+
+.img-default {
+    width: 250px;
+}
+.img-hover {
+    width: 250px;
+}
+
+/*----------------------------------------RECEBER NOTICIAS----------------------------------------*/
+
+.recebenoticia {
+    margin-top: 50px;
+    background-color: #e6e6e6;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barranoticia {
+    box-shadow: 0 0 0 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.barranoticiapesquisa {
+    box-shadow: 0 1px 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: #e6e6e6 ;
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
+}
+
+.botaorecebenoticia {
+    text-decoration: none;
+    color: black;
+}
+
+.botaorecebenoticia:hover {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+/*----------------------------------------RESPONSIVIDADE----------------------------------------*/
+
+
+@media (max-width: 1000px) and (min-width: 800px){ 
+    .catalogoTenis {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 70px;
+    }
+    .cabecalho {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .cabecalho img{
+        height: 20%;
+    }
+    .menu{
+        font-size: 30px;
+    }
+    .search-box {
+        display: none;
+    }
+    footer {
+        font-size: 15px;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .barranoticia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconesredes {
+        margin-bottom: 30px;
+    }
+    
+    .img-default {
+        width: 400px;
+    }
+    .img-hover {
+        width: 400px;
+    }
+
+
+}
+
+@media (max-width: 800px) and (min-width: 300px){ 
+
+    .catalogoTenis {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cabecalho {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .cabecalho img{
+        height: 8vh;
+    }
+    .menu{
+        font-size: 10px;
+        margin-right: 40px;
+    }
+    .search-box {
+        display: none;
+    }
+
+    footer {
+        font-size: 15px;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .barranoticia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconesredes {
+        margin-bottom: 30px;
+    }
+    
+    .img-default {
+        width: 200px;
+    }
+    .img-hover {
+        width: 200px;
+    }
+
+    .barranoticiapesquisa {
+        height: 50px;
+        width: 250px;
+    }
+}
+

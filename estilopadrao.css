@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------------------------------CABECALHO----------------------------------------*/
+
+.cabecalho {
+    background-color: #102947;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    text-indent: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.espacoMenu{
+    margin: 0 20px;
+}
+
+.animacaoMenu {
+    text-decoration: none;
+    color: white;
+}
+
+.menu .animacaoMenu:hover {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+.cabecalho img {
+    height: 8vh;
+}
+
+.search-txt {
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 0 1px 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: #102947;
+    color: white;
+}
+
+
+/*----------------------------------------RODAPÉ----------------------------------------*/
+
+footer {
+    background-color: #102947;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+}
+
+
+.maparodape{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulorodape{
+    margin: 10px 0;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+}
+
+
+.menurodape{
+   margin: 10px 0;
+   text-indent: 10px;
+   text-decoration: none;
+   color: white;
+}
+
+.descrirodape{
+    margin: 10px 0;
+    text-indent: 10px;
+    text-decoration: none;
+    color: white;
+ }
+
+.menurodape:hover {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+.contatorodape{
+   text-align: center;
+}
+
+.redesrodape {
+   width: 25px;
+}
+
+.iconesredes {
+    text-align: center;
+}

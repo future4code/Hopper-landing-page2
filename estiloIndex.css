@@ -1,0 +1,221 @@
+/*----------------------------------------CABECALHO----------------------------------------*/
+#cabecalhoT{
+    position: absolute;
+    top: 0;
+    background: transparent;
+    width: 95vw;
+}
+
+.logo {
+}
+
+#menuT {
+    text-indent: 5px;
+}
+
+#menuT li{
+   color: black; 
+   font-style: oblique;
+}
+#menuT .animacaoMenu:hover{
+     color: black;
+     text-decoration:underline;
+}
+
+#searchT {
+    background-color: transparent;
+    color: black;
+}
+
+/*----------------------------------------MAIN----------------------------------------*/
+.topSite{
+    background-size: 100vw;
+    background-image: url(./img/topSite.jpg);
+    background-repeat: no-repeat;
+    height: 35vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-bottom: 20px;
+    background-position: bottom;
+
+}
+
+.topTexto {
+    color: rgb(255, 255, 255);
+}
+
+.sessaoMF{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    margin: 0 5% ;
+}
+
+.sessaoSite {
+    display:flex;
+    align-items: center;
+    justify-content: baseline;
+    text-align: justify;
+    margin: 10px 0;
+    background-color: #ebebeb;
+
+}
+
+.imgamostra{
+    height: 30vw;
+    padding: 4px 0;
+}
+
+.textoEspaco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.espacoTexto{
+    margin: 70px 0;
+}
+
+.buttomSite {
+    height: 5vh;
+    width: 15vw;
+    background-color: white;
+    
+    box-shadow: 0px 0px 4px rgb(29, 28, 28);
+}
+
+.buttomSite:hover {
+    background-color: #5d5a5a;
+/*   border-color: #ebebeb;*/
+    color: white; 
+}
+
+#topBotoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top {
+    height: 5vh;
+    width: 15vw;
+    background-color: white;
+    
+    box-shadow: 0px 0px 4px rgb(29, 28, 28);
+}
+
+.top:hover{
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+
+
+/*----------------------------------------RESPONSIVIDADE----------------------------------------*/
+
+@media (max-width: 1400px) and (min-width: 800px){
+    #cabecalhoT{
+        position: static;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        background-color: #102947;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    #menuT li{
+        color:white;
+    }
+
+    .logo {
+        opacity: 0.0;
+    }
+
+    .imgLogo{
+        background-image: url(img/logo-4comfort-branco.png);
+        background-repeat: no-repeat;
+        background-size: 120px;
+        background-position: center center;
+    }
+
+    .cabecalho>a {
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .espacoTexto{
+        margin: 20px 0;
+    }
+    
+}
+
+@media (max-width: 800px) and (min-width: 300px){
+    #cabecalhoT{
+        position: static;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        background-color: #102947;
+        width: 100%;
+        padding: 10px 0;
+    }
+        
+    #menuT li{
+        color:white;
+    }
+
+
+
+    .logo {
+        opacity: 0.0;
+    }
+
+    .imgLogo{
+        background-image: url(img/logo-4comfort-branco.png);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: center center;
+    }
+    
+    .search-box {
+        display: none;
+    }
+    .sessaoSite{
+        flex-direction: column;        
+        justify-content: center;
+    }
+
+    .imgamostra{
+        height: 80vw;
+    }
+
+    #sessaoMasculina {
+        flex-direction: column-reverse;
+    }
+
+    .espacoTexto{
+        margin: 5px 0;
+    }
+    
+    .buttomSite {
+        width: 30vw;
+    }
+
+    .top {
+        width: 30vw;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
